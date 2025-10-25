@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 30%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-right: 4%;
+  margin-top: 3%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
