@@ -1,0 +1,12 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+#specials {
+  display: flex;
+}
+
+#items {
+  display: flex;
+}
