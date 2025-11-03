@@ -4,8 +4,8 @@ import image from "../images/gourmet.jpg";
 function Hero() {
   return (
     <>
-      <section>
-        <div id="description">
+      <section id="hero">
+        <div id="hero-left">
           <h1>Little Lemon</h1>
           <h4>Cleveland</h4>
           <p>
@@ -13,10 +13,10 @@ function Hero() {
             cursus, ligula sed rutrum volutpat, lorem nisl egestas dui, ut
             mollis dolor sem id odio. Cras.
           </p>
-          <button>Reserve A Table</button>
+          <button type="button" className="btn btn-warning btn">Reserve A Table</button>
         </div>
 
-        <div id="image">
+        <div id="hero-right">
           <img src={image} alt="appetizers" />
         </div>
       </section>

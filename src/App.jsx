@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
@@ -7,6 +6,7 @@ import Menu from "./pages/Menu";
 import Reservations from "./pages/Reservations";
 import OrderOnline from "./pages/OrderOnline";
 import LogIn from "./pages/LogIn";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

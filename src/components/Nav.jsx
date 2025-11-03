@@ -5,7 +5,7 @@ import "../styles/Nav.css";
 function Nav() {
   return (
     <>
-      <nav>
+      <nav id="nav">
         <a href="/">
           <img src={logo} alt="logo" />
         </a>

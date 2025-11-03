@@ -4,7 +4,7 @@ nav {
   align-items: center;
 }
 
-img {
+nav img {
   min-width: 100px;
   max-width: 40%;
   margin-left: 10%;
@@ -22,7 +22,7 @@ nav a {
   margin: 0 10px;
 }
 
-a {
+#nav a {
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ a:link {
 }
 
 a:visited {
-  color: green;
+  color: #658C58;
 }
 
 a:hover {

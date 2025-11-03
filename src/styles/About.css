@@ -1,0 +1,15 @@
+#about {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f0e491;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 3%;
+}
+
+#about-left {
+    max-width: 50%;
+    margin-left: 10%;
+}

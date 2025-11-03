@@ -1,10 +1,17 @@
+import '../styles/About.css';
+
 function About() {
   return (
     <>
-      <section>
-        <div>
+      <section id="about">
+        <div id="about-left">
           <h3>Little Lemon</h3>
           <h2>Cleveland</h2>
+          <p>
+            Hours: <br />
+            Sunday-Thursday: 10AM-10PM <br />
+            Friday-Saturday: 10AM-12AM
+          </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue
             tortor ut mi pellentesque consectetur. Nullam tristique dolor at
@@ -13,7 +20,7 @@ function About() {
             semper justo, id.
           </p>
         </div>
-        <div>
+        <div id="about-right">
           <img src="" alt="" />
           <img src="" alt="" />
         </div>

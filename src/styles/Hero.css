@@ -1,15 +1,26 @@
-section {
+section#hero {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-between;
-  /* align-items: center; */
+  width: 100%;
+  background-color: #658c58;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
-#description {
+#hero-left {
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  max-width: 40%;
+  margin-left: 10%;
 }
 
-#image {
+#hero h1 {
+  color: yellow;
+}
+
+#hero-right img {
+  border-radius: 20%;
+  margin-left: 40%;
+  max-width: 40%;
 }
