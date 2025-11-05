@@ -1,0 +1,26 @@
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#entrees {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.entree {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.entree img {
+    width: 30%;
+}
+
+.entree section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
