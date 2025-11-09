@@ -1,15 +1,29 @@
 import { Outlet, Link } from "react-router-dom";
 import logo from "../images/logo.jpg";
 import "../styles/Nav.css";
+import { useState } from "react";
 
 function Nav() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <>
-      <nav id="nav">
+      <nav id={`navbar ${menuOpen ? "open" : ""}`}>
         <a href="/">
           <img src={logo} alt="logo" />
         </a>
-        <ul>
+
+        <div id="menu-icon" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
+
+        <ul id={`nav-links ${menuOpen ? "visible" : ""}`}>
           <Link to="/">Home</Link>
           <Link to="/aboutpage">About</Link>
           <Link to="/menu">Menu</Link>
