@@ -21,7 +21,7 @@ function Nav() {
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>
-        </div>
+        </div> 
 
         <ul id={`nav-links ${menuOpen ? "visible" : ""}`}>
           <Link to="/">Home</Link>

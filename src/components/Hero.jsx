@@ -1,5 +1,6 @@
 import "../styles/Hero.css";
 import image from "../images/gourmet.jpg";
+import { Outlet, Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -13,7 +14,12 @@ function Hero() {
             cursus, ligula sed rutrum volutpat, lorem nisl egestas dui, ut
             mollis dolor sem id odio. Cras.
           </p>
-          <button type="button" className="btn btn-warning btn">Reserve A Table</button>
+          <Link to="/reservations">
+            {" "}
+            <button type="button" className="btn btn-warning btn">
+              Reserve A Table
+            </button>
+          </Link>
         </div>
 
         <div id="hero-right">
