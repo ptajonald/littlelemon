@@ -15,7 +15,7 @@ function Highlights() {
         </div>
         <div id="items">
           <div className="item">
-            <img src={salad} alt="salad" className=" " />
+            <img src={salad} alt="salad" />
             <section>
               <div className="name-price">
                 <h4>Greek Salad</h4>

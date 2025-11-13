@@ -94,7 +94,7 @@ function Reservations() {
           <section className="guest-info">
             <h1>Reservation Details</h1>
             <section className="">
-              <section className="data-inp">
+              <section className="">
                 <label htmlFor="date">Select a date</label>
                 <div className="">
                   <input
@@ -109,9 +109,9 @@ function Reservations() {
                   />
                 </div>
               </section>
-              <section className="data-inp">
+              <section className="">
                 <label htmlFor="time">Select a time</label>
-                <section className="flex items-center">
+                <section className="">
                   <select
                     name="time"
                     id="time"
@@ -138,13 +138,14 @@ function Reservations() {
                   </select>
                 </section>
               </section>
-              <section className="data-inp">
+              <section className="">
                 <label htmlFor="guests">Guests number</label>
-                <section className="flex items-center">
+                <section className="">
                   <input
                     name="guests"
                     type="number"
                     id="guests"
+                    min="1"
                     placeholder="Number of guests"
                     className="select"
                     value={inputs.guests}

@@ -48,3 +48,29 @@ section#highlights {
   margin-left: 2%;
   margin-right: 2%;
 }
+
+@media screen and (max-width: 768px) {
+  #items {
+    flex-direction: column;
+    max-height: 1000px;
+    gap: 5%;
+  }
+
+  .item {
+    height: 150px;
+    flex-direction: row;
+    margin-bottom: 5%;
+  }
+
+  .item img {
+    height: 100%;
+  }
+
+  .item section {
+    padding-bottom: 5%;
+  }
+
+  section p {
+    margin-bottom: 0%;
+  }
+}

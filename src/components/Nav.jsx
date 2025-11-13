@@ -12,7 +12,7 @@ function Nav() {
 
   return (
     <>
-      <nav id={`navbar ${menuOpen ? "open" : ""}`}>
+      <nav id="navbar" className={menuOpen ? "visible" : ""}>
         <a href="/">
           <img src={logo} alt="logo" />
         </a>
@@ -21,9 +21,9 @@ function Nav() {
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>
-        </div> 
+        </div>
 
-        <ul id={`nav-links ${menuOpen ? "visible" : ""}`}>
+        <ul id="nav-links" className={menuOpen ? "visible" : ""}>
           <Link to="/">Home</Link>
           <Link to="/aboutpage">About</Link>
           <Link to="/menu">Menu</Link>
