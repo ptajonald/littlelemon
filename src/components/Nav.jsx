@@ -28,8 +28,6 @@ function Nav() {
           <Link to="/aboutpage">About</Link>
           <Link to="/menu">Menu</Link>
           <Link to="/reservations">Reservations</Link>
-          <Link to="/orderonline">Order Online</Link>
-          <Link to="/login">Log In</Link>
         </ul>
       </nav>
 
