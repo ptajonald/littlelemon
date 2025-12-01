@@ -1,6 +1,6 @@
 import "../styles/Highlights.css";
 import salad from "../images/cat-csalad.jpg";
-import bruchetta from "../images/bruschetta1.jpg";
+import bruschetta from "../images/bruschetta1.jpg";
 import lemon from "../images/lemon.jpg";
 
 function Highlights() {
@@ -22,9 +22,9 @@ function Highlights() {
                 <h4>$12.99</h4>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                cursus, ligula sed rutrum volutpat, lorem nisl egestas dui, ut
-                mollis dolor sem id odio. Cras.
+                The famous greek salad of crispy lettuce, peppers, olives and
+                our Chicago style feta cheese, garnished with crunchy garlic and
+                rosemary croutons.
               </p>
               <button type="button" class="btn btn-success">
                 Order Delivery
@@ -32,16 +32,15 @@ function Highlights() {
             </section>
           </div>
           <div className="item">
-            <img src={bruchetta} alt="bruchetta" />
+            <img src={bruschetta} alt="bruschetta" />
             <section>
               <div className="name-price">
-                <h4>Bruchetta</h4>
+                <h4>Bruschetta</h4>
                 <h4>$5.99</h4>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                cursus, ligula sed rutrum volutpat, lorem nisl egestas dui, ut
-                mollis dolor sem id odio. Cras.
+                Our Bruschetta is made from grilled bread that has been smeared
+                with garlic and seasoned with salt and olive oil.
               </p>
               <button type="button" class="btn btn-success">
                 Order Delivery
@@ -56,9 +55,9 @@ function Highlights() {
                 <h4>$4.99</h4>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                cursus, ligula sed rutrum volutpat, lorem nisl egestas dui, ut
-                mollis dolor sem id odio. Cras.
+                This comes straight from grandma’s recipe book, every last
+                ingredient has been sourced and is as authentic as can be
+                imagined.
               </p>
               <button type="button" class="btn btn-success">
                 Order Delivery

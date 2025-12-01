@@ -13,11 +13,10 @@ function AboutPage() {
             Friday-Saturday: 10AM-12AM
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue
-            tortor ut mi pellentesque consectetur. Nullam tristique dolor at
-            erat volutpat, feugiat porta augue aliquam. Aliquam nulla elit,
-            tincidunt non urna et, vestibulum facilisis arcu. Nullam dapibus
-            semper justo, id.
+            Our menu is inspired by the flavors of the Mediterranean, with a
+            focus on healthy and wholesome ingredients. Whether you're in the
+            mood for a hearty meal or a light snack, we've got something for
+            everyone at Little Lemon.
           </p>
         </div>
         <div id="about-right">

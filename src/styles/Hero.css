@@ -3,6 +3,7 @@ section#hero {
   flex-wrap: nowrap;
   flex-direction: row;
   width: 100%;
+  height: 20rem;
   background-color: #658c58;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -11,7 +12,7 @@ section#hero {
 #hero-left {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 30%;
   margin-left: 10%;
 }
 
@@ -22,7 +23,11 @@ section#hero {
 #hero-right img {
   border-radius: 20%;
   margin-left: 40%;
-  max-width: 40%;
+  width: 17.5rem;
+  height: 20rem;
+  position: relative;
+  top: 10px;
+  left: 450px;
 }
 
 @media screen and (max-width: 768px) {
